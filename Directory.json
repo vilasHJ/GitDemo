@@ -1,0 +1,55 @@
+{
+	"files": {
+
+		"chromedriver": "C:\\Webdriver\\chromedriver.exe"
+	},
+
+	"logindata": {
+		"username": "//input[@id='emailId']",
+		"password": "//input[@id='password']",
+		"logclick": "//button[@id='loginButton']",
+                "Email":"vilasjain9611@gmail.com",
+                "PasswordValue":"Vilas147@"
+
+	},
+"Directory": {
+		"Directory": "//*[@id='directory']/div/span[2]",
+		"AddEmployee": "//*[@id='wrapper']/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/span/i",
+		"FirstName": "//input[@id='firstName']",
+		"MiddleName": "//input[@id='middleName']",
+		"LastName": "//input[@id='lastName']",
+		"EmployeeID": "//input[@id='employeeId']",
+		"AnualCTC": "//input[@id='annualCtc']",
+                "ReportingManager":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[6]/div/div/div/div/span",
+		"RoleSelect": "//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[7]/div/div/div/div/span",
+		"PhoneNumber": "//input[@id='phoneNumber']",
+		"EmailID": "//input[@id='loginEmailId']",
+		"Password": "//input[@id='password']",
+		"NextButton": "//button[@id='submitButton']",
+                "DOB":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[2]/div",
+                "Gender":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[3]/div/div/div/div/span",
+                "OffEmail":"//input[@id='officialEmailId']",
+                "Department":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[6]/div/div/div/div/span",
+                "SubDepartment":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[7]/div/div/div/div/span",
+                "Designation":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[8]/div/div/div/div/span",
+                "JobTitle":"//input[@id='jobTitle']",
+                "WorkLocation":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[10]/div/div/div/div/span",
+                "EmployeeType":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[11]/div/div/div/div",
+                "ProbationPeriod":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[12]/div/div/div/div",
+                "DateOfJoining":"//*[@id='wrapper']/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[13]/div",
+                "AccountHolderName":"//input[@id='accountHolderSName']",
+                "BankName":"//input[@id='bankName']",
+                "City":"//input[@id='city']",
+                "BranchName":"//input[@id='branchName']",
+                "IFSCCode":"//input[@id='ifscCode']",
+                "AccountNumber":"//input[@id='accountNumber']",
+                "Update":"//button[@id='submitButton']",
+                "Year": "//div[@class='rmdp-header-values']/span[2]",
+		"Next": "//span[@class='rmdp-arrow-container rmdp-right ']",
+		"Previous": "//span[@class='rmdp-arrow-container rmdp-left ']",
+		"Month": "//div[@class='rmdp-header-values']/span[1]",
+		"MonthSelection": "//div[@class='rmdp-ym']/div/span",
+		"Date": "//div[@class='rmdp-day']/span",
+		"OK": "//button[@class='rmdp-button rmdp-action-button'][1]"
+	}
+}

@@ -1,0 +1,31 @@
+TEST CASE NO,TEST CASE DESCRIPITION,FIRST NAME,MIDDLE NAME,LASE NAME,EMPLOYEE ID,ANUAL CTC,REPORTING MANAGER,ROLE,PHONE NUMBER,EMAIL ID,PASSWORD,DOB,GENDER,OFF EMAIL,DEPARTMENT,SUBDEPARTMENT,DESIGNATION,JOB TITLE,WORK LOCATION,EMPLOYEE TYPE,PP,DOJ,ACC HOLDER NAME,BANK NAME,CITY,BRANCH NAME,IFSC CODE,ACC NUMBER,EXPECTED RESULT,ACTUAL RESULT,RESULT,REMARKS
+
+1.0,Blank First name,,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+2.0,Blank Employee ID,Shubman,Gill,Singh,,600000,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+3.0,Blank CTC,Shubman,Gill,Singh,VP0007,,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+4.0,Blank Role,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,null,1234567890,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+5.0,Blank Phone Number,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+6.0,Blank Email,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,1234567890,,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+7.0,Blank Password,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,This field is required,This field is required,PASS,Some fields are missing or blank
+
+8.0,All fields are blank,,,,,,null,null,,,,null,null,null,null,null,null,,null,null,null,null,,,,,,,This field is required,This field is required,PASS,Some fields are missing or blank
+
+9.0,Invalid phone number,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,123456789,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,Please provide valid phone number,Please provide valid phone number,PASS,Invalid Phone Number
+
+10.0,Invalid Password,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,Gil,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,Password must be at least 8 characters,Password must be at least 8 characters,PASS,Invalid Password
+
+11.0,Adding New Employee,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,Employee onboarded successfully:,Employee onboarded successfully:,PASS,New Employee Onboarded successfully
+
+12.0,Duplicate Employee,Shubman,Gill,Singh,VP0007,600000,Vilas H J-PV0001,Manager,1234567890,Gill@gmail.com,Gill@1234,11/01/2000,Male,Gill1@gmail.com,Testing Team,Automation Testing,Senior Manager,Engineer,Banglore,Full Time,30,11/01/2022,Gill,Canara Bank,Punjab,Amritsar,CNRB0000123,1234567890,User with provided email id is already exits,User with provided email id is already exits,PASS,User Already Exists
+
+13.0,Adding New Employee,Yashaswi,Jaiswal,Singh,VP0008,600000,Vilas H J-PV0001,Admin,1234567890,Jaiswal@gmail.com,Jaiswal@123,11/01/2000,Male,Jaiswal1@gmail.com,Devlopment Team,React,Senior Engineer,Associate,Manglore,Intern,45,11/01/2022,Yasaswi,HDFC Bank,Mumbai,Bangra,HDFC0001,1234567890,Employee onboarded successfully:,Employee onboarded successfully:,PASS,New Employee Onboarded successfully
+
+14.0,Employee With Age less than 18 years,Tilak,Verma,Reddy,VP0009,600000,Vilas H J-PV0001,Admin,1234567890,Verma@gmail.com,Verma@1234,11/01/2020,Male,Verma1@gmail.com,Devlopment Team,React,Senior Engineer,Associate,Manglore,Part Time,45,11/01/2022,Verma,HDFC Bank,Hyderabad,Hyderabad,HDFC0002,1234567890,Employee age should be greater or equal to 18 years,Employee age should be greater or equal to 18 years,PASS,Employee Age is less than 18 Years
+
+15.0,Onboarding Employee with Duplicate Employee ID,Sanju,Samson,M,VP0008,600000,Vilas H J-PV0001,Admin,1234567890,Sanju@gmail.com,Sanju@1234,11/01/2000,Male,Sanju1@gmail.com,Devlopment Team,React,Senior Engineer,Associate,Manglore,Part Time,45,11/01/2022,Verma,HDFC Bank,Hyderabad,Hyderabad,HDFC0002,1234567890,Employee onboarding failed: Employee basic info update failed: Employee ID might already exists,Employee onboarding failed: Employee basic info update failed: Employee ID might already exists,PASS,Employee ID is already Exists
